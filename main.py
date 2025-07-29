@@ -1,11 +1,14 @@
+
 from scraping import obtener_anuncios
 from openai_analysis import analizar_anuncio
 from telegram_send import enviar_a_telegram
 import json
 import csv
+import os
 
-# Cargar configuración
-with open("config.json", "r") as f:
+# Cargar configuración de forma segura
+config_path = "config_local.json" if os.path.exists("config_local.json") else "config.json"
+with open(config_path, "r") as f:
     config = json.load(f)
 
 def guardar_csv(datos):
