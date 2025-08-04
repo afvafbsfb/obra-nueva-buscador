@@ -31,3 +31,9 @@ Licencia: uso personal
 
 ---
 *Proyecto en desarrollo. Última actualización: Agosto 2025.*
+
+## 🔐 Seguridad y configuración
+
+- El archivo `config_local.json` contiene tus claves reales y **no debe subirse nunca** al repositorio. Ya está incluido en `.gitignore` por seguridad.
+- En su lugar, se incluye un `config_example.json` como plantilla pública para facilitar la configuración sin exponer secretos.
+

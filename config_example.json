@@ -1,0 +1,9 @@
+{
+  "telegram_token": "TU_TOKEN_AQUI",
+  "telegram_chat_id": "TU_CHAT_ID_AQUI",
+  "openai_api_key": "TU_API_KEY_OPENAI",
+  "precio_maximo": 200000,
+  "min_terraza_m2": 12,
+  "min_habitaciones": 2,
+  "guardar_csv": true
+}
